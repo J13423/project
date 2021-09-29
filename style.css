@@ -1,0 +1,25 @@
+body{
+    text-align:center;
+    text-shadow:1px 1px #313b33;
+    background-color:aqua;
+    overflow:hidden;
+    position: absolute;
+}
+.list:hover{
+    background-color:red;
+   
+}
+#menu{
+    cursor:pointer;
+    float:right;
+    list-style: none;
+    right:30px;
+    left:30px;
+    top:10px;
+    bottom:10px;
+    font-family: 'Montserrat', sans-serif;
+    position:sticky;
+}
+#imge:hover{
+    transform: scale(0.9)
+}
